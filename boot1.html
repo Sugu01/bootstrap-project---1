@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project - 1</title>
+    <link rel="stylesheet" href="boot1.css">
+
+    <!--Bootstrap - Icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!--Bootstrap - CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><span class="text-warning">Build</span>Con</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="project-1-img/house-1.jpg" class="d-block w-100" alt="house 1">
+            <div class="carousel-caption">
+              <h5>Your Dream House</h5>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque obcaecati laudantium deserunt. Beatae praesentium corporis enim ullam.</p>
+              <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="project-1-img/house-2.jpg" class="d-block w-100" alt="house 2">
+            <div class="carousel-caption">
+              <h5>Always Dedicated</h5>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque obcaecati laudantium deserunt. Beatae praesentium corporis enim ullam.</p>
+              <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="project-1-img/house-3.jpg" class="d-block w-100" alt="house 3">
+            <div class="carousel-caption">
+              <h5>True Construction</h5>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque obcaecati laudantium deserunt. Beatae praesentium corporis enim ullam.</p>
+              <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="project-1-img/house-4.jpg" class="d-block w-100" alt="house 4">
+            <div class="carousel-caption">
+              <h5>True Construction</h5>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque obcaecati laudantium deserunt. Beatae praesentium corporis enim ullam.</p>
+              <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <section id="about" class="about section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-12 col-12">
+              <div class="about-img">
+                <img src="project-1-img/about.jpg" alt="about.img" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+              <div class="about-text mt-md-5 text-center">
+                <h2 class="fw-bold m-3">We Provide Best Quality <br> Services Ever </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, sunt quis esse nemo animi earum magni ipsa debitis accusamus alias sequi tenetur exercitationem architecto dolorum quo odit provident excepturi dolores...</p>
+                <a href="#" class="btn btn-warning">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="services section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-header text-center mb-5">
+                <h2 class="fw-bold m-3">Our Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit <br> Dolorem eaque hic nostrum nobis inventore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. A sequi dignissimos, quis, consectetur aliquid nostrum sed magni dolores odio quasi eum eveniet fugiat perspiciatis tempore nesciunt, accusantium amet recusandae suscipit!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row team">
+            <div class="col-12 col-md-12 col-lg-4 p-2">
+              <div class="card text-white text-center bg-dark pb-2">
+                <div class="card-body">
+                  <i class="bi bi-award-fill"></i>
+                  <h3 class="card-title">Best Quality</h3>
+                  <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt id dicta vero cupiditate possimus vel quibusdam. Itaque voluptatem sit tenetur ut quas aliquam iste corrupti, perferendis rerum et excepturi reprehenderit.</p>
+                  <button class="btn btn-warning text-dark">Read More</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-4 p-2">
+              <div class="card text-white text-center bg-dark pb-2">
+                <div class="card-body">
+                  <i class="bi bi-slack"></i>
+                  <h3 class="card-title">Sustainability</h3>
+                  <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt id dicta vero cupiditate possimus vel quibusdam. Itaque voluptatem sit tenetur ut quas aliquam iste corrupti, perferendis rerum et excepturi reprehenderit.</p>
+                  <button class="btn btn-warning text-dark">Read More</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-4 p-2">
+              <div class="card text-white text-center bg-dark pb-2">
+                <div class="card-body">
+                  <i class="bi bi-playstation"></i>
+                  <h3 class="card-title">Integrity</h3>
+                  <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt id dicta vero cupiditate possimus vel quibusdam. Itaque voluptatem sit tenetur ut quas aliquam iste corrupti, perferendis rerum et excepturi reprehenderit.</p>
+                  <button class="btn btn-warning text-dark">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="portfolio" class="portfolio section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-header text-center mb-5">
+                <h2 class="fw-bold m-3">Our Projects</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit <br> Dolorem eaque hic nostrum nobis inventore. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident nam illo distinctio consequatur delectus iusto maiores odit culpa repudiandae vero ipsa voluptates totam.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-light text-center bg-white pb-2">
+                <div class="card-body text-dark">
+                  <div class="img-area mb-4">
+                    <img src="project-1-img/project-1.jpg" alt="project-1" class="img-fluid">
+                  </div>
+                  <h3 class="card-title">Building Make</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, inventore quas asperiores provident earum molestias nostrum aut doloribus fugit ad assumenda ea! Obcaecati error nesciunt qui rem quidem voluptatum rerum.</p>
+                  <button class="btn btn-warning text-dark">Learn More</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-light text-center bg-white pb-2">
+                <div class="card-body text-dark">
+                  <div class="img-area mb-4">
+                    <img src="project-1-img/project-2.jpg" alt="project-2" class="img-fluid">
+                  </div>
+                  <h3 class="card-title">Building Make</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, inventore quas asperiores provident earum molestias nostrum aut doloribus fugit ad assumenda ea! Obcaecati error nesciunt qui rem quidem voluptatum rerum.</p>
+                  <button class="btn btn-warning text-dark">Learn More</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-light text-center bg-white pb-2">
+                <div class="card-body text-dark">
+                  <div class="img-area mb-4">
+                    <img src="project-1-img/project-3.jpg" alt="project-3" class="img-fluid">
+                  </div>
+                  <h3 class="card-title">Building Make</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, inventore quas asperiores provident earum molestias nostrum aut doloribus fugit ad assumenda ea! Obcaecati error nesciunt qui rem quidem voluptatum rerum.</p>
+                  <button class="btn btn-warning text-dark">Learn More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="portfolio section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-header text-center mb-5">
+                <h2 class="fw-bold m-3">Our House Projects</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit <br> Dolorem eaque hic nostrum nobis inventore. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident nam illo distinctio consequatur delectus iusto maiores odit culpa repudiandae vero ipsa voluptates totam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit officia id deserunt doloremque nostrum quos saepe odit. A aliquid inventore, officiis cum mollitia accusamus illum officia maiores nobis vitae nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet recusandae atque optio praesentium blanditiis dolorum aspernatur ab non quasi, quae ducimus, quas repellat nisi exercitationem earum libero alias, quidem veniam.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-light text-center bg-white pb-2 mb-5">
+                <div class="card-body text-dark">
+                  <div class="img-area mb-4">
+                    <img src="project-1-img/home-1.jpg" alt="" class="img-fluid">
+                  </div>
+                  <h3 class="card-title">Building Make</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, inventore quas asperiores provident earum molestias nostrum aut doloribus fugit ad assumenda ea! Obcaecati error nesciunt qui rem quidem voluptatum rerum.</p>
+                  <button class="btn btn-warning text-dark">Learn More</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-light text-center bg-white pb-2">
+                <div class="card-body text-dark">
+                  <div class="img-area mb-4">
+                    <img src="project-1-img/home-2.jpg" alt="" class="img-fluid">
+                  </div>
+                  <h3 class="card-title">Building Make</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, inventore quas asperiores provident earum molestias nostrum aut doloribus fugit ad assumenda ea! Obcaecati error nesciunt qui rem quidem voluptatum rerum.</p>
+                  <button class="btn btn-warning text-dark">Learn More</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-light text-center bg-white pb-2">
+                <div class="card-body text-dark">
+                  <div class="img-area mb-4">
+                    <img src="project-1-img/home-3.jpg" alt="" class="img-fluid">
+                  </div>
+                  <h3 class="card-title">Building Make</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, inventore quas asperiores provident earum molestias nostrum aut doloribus fugit ad assumenda ea! Obcaecati error nesciunt qui rem quidem voluptatum rerum.</p>
+                  <button class="btn btn-warning text-dark">Learn More</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-light text-center bg-white pb-2">
+                <div class="card-body text-dark">
+                  <div class="img-area mb-4">
+                    <img src="project-1-img/home-4.jpg" alt="" class="img-fluid">
+                  </div>
+                  <h3 class="card-title">Building Make</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, inventore quas asperiores provident earum molestias nostrum aut doloribus fugit ad assumenda ea! Obcaecati error nesciunt qui rem quidem voluptatum rerum.</p>
+                  <button class="btn btn-warning text-dark">Learn More</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-light text-center bg-white pb-2">
+                <div class="card-body text-dark">
+                  <div class="img-area mb-4">
+                    <img src="project-1-img/home-5.jpg" alt="" class="img-fluid">
+                  </div>
+                  <h3 class="card-title">Building Make</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, inventore quas asperiores provident earum molestias nostrum aut doloribus fugit ad assumenda ea! Obcaecati error nesciunt qui rem quidem voluptatum rerum.</p>
+                  <button class="btn btn-warning text-dark">Learn More</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-light text-center bg-white pb-2">
+                <div class="card-body text-dark">
+                  <div class="img-area mb-4">
+                    <img src="project-1-img/home-6.jpg" alt="" class="img-fluid">
+                  </div>
+                  <h3 class="card-title">Building Make</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, inventore quas asperiores provident earum molestias nostrum aut doloribus fugit ad assumenda ea! Obcaecati error nesciunt qui rem quidem voluptatum rerum.</p>
+                  <button class="btn btn-warning text-dark">Learn More</button>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+
+      <section id="team" class="team section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-header text-center mb-5">
+                <h2 class="fw-bold mb-4">Portfolio</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique delectus dolore ex quod. Expedita modi iste dicta voluptas sunt illo cupiditate? Dignissimos fuga nihil optio distinctio quod sit harum deserunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum quidem maxime quo ex beatae, neque ea ab et? Aut laboriosam ex iusto rerum. Accusantium incidunt porro animi dicta odio. Dolor.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card text-center">
+                <div class="card-body">
+                  <img src="project-1-img/team-1.jpg" alt="" class="img-fluid rounded-circle">
+                  <h3 class="card-title py-2">Jack Wilson</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia excepturi, sint ex, iure laudantium rem commodi unde eius similique consequatur non earum quas esse sunt ea magnam? Veritatis, maiores optio.</p>
+                  <p class="socials">
+                    <i class="bi bi-twitter text-dard mx-1" role="button" tabindex="0"></i>
+                    <i class="bi bi-facebook text-dard mx-1" role="button" tabindex="0"></i>
+                    <i class="bi bi-whatsapp text-dard mx-1" role="button" tabindex="0"></i>
+                    <i class="bi bi-instagram text-dard mx-1" role="button" tabindex="0"></i>
+                    <i class="bi bi-linkedin text-dard mx-1" role="button" tabindex="0"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card text-center">
+                <div class="card-body">
+                  <img src="project-1-img/team-2.jpg" alt="" class="img-fluid rounded-circle">
+                  <h3 class="card-title py-2">Danny Thomas</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia excepturi, sint ex, iure laudantium rem commodi unde eius similique consequatur non earum quas esse sunt ea magnam? Veritatis, maiores optio.</p>
+                  <p class="socials">
+                    <i class="bi bi-twitter text-dard mx-1" role="button" tabindex="0"></i>
+                    <i class="bi bi-facebook text-dard mx-1" role="button" tabindex="0"></i>
+                    <i class="bi bi-whatsapp text-dard mx-1" role="button" tabindex="0"></i>
+                    <i class="bi bi-instagram text-dard mx-1" role="button" tabindex="0"></i>
+                    <i class="bi bi-linkedin text-dard mx-1" role="button" tabindex="0"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card text-center">
+                <div class="card-body">
+                  <img src="project-1-img/team-3.jpg" alt="" class="img-fluid rounded-circle">
+                  <h3 class="card-title py-2">Alita Smith</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia excepturi, sint ex, iure laudantium rem commodi unde eius similique consequatur non earum quas esse sunt ea magnam? Veritatis, maiores optio.</p>
+                  <p class="socials">
+                    <i class="bi bi-twitter text-dard mx-1" role="button" tabindex="0"></i>
+                    <i class="bi bi-facebook text-dard mx-1" role="button" tabindex="0"></i>
+                    <i class="bi bi-whatsapp text-dard mx-1" role="button" tabindex="0"></i>
+                    <i class="bi bi-instagram text-dard mx-1" role="button" tabindex="0"></i>
+                    <i class="bi bi-linkedin text-dard mx-1" role="button" tabindex="0"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card text-center">
+                <div class="card-body">
+                  <img src="project-1-img/team-4.jpg" alt="" class="img-fluid rounded-circle">
+                  <h3 class="card-title py-2">Jacklyn Joe</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia excepturi, sint ex, iure laudantium rem commodi unde eius similique consequatur non earum quas esse sunt ea magnam? Veritatis, maiores optio.</p>
+                  <p class="socials">
+                    <i class="bi bi-twitter text-dard mx-1" role="button" tabindex="0"></i>
+                    <i class="bi bi-facebook text-dard mx-1" role="button" tabindex="0"></i>
+                    <i class="bi bi-whatsapp text-dard mx-1" role="button" tabindex="0"></i>
+                    <i class="bi bi-instagram text-dard mx-1" role="button" tabindex="0"></i>
+                    <i class="bi bi-linkedin text-dard mx-1" role="button" tabindex="0"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-header text-center mb-5">
+                <h2 class="fw-bold mb-4">About Company</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique delectus dolore ex quod. Expedita modi iste dicta voluptas sunt illo cupiditate? Dignissimos fuga nihil optio distinctio quod sit harum deserunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum quidem maxime quo ex beatae, neque ea ab et? Aut laboriosam ex iusto rerum. Accusantium incidunt porro animi dicta odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, maxime molestias tempora eveniet repellat nobis vitae illum, laborum dolores repudiandae nesciunt ex suscipit, aperiam corporis autem aut quaerat iste reprehenderit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minus architecto recusandae amet maiores illo dolorem laborum eligendi facere autem, ex quam reprehenderit earum, quasi harum voluptatum praesentium dolores repellendus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio corporis at reiciendis sed perferendis, odio tenetur numquam animi ullam consequuntur et aspernatur eaque velit. Rem reiciendis inventore facere eaque esse.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row m-0">
+            <div class="col-md-12 p-0 pt-4 pb-4">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <input type="text" class="form-control" required placeholder="Your Full Name">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Your Email Here">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Your Email Here">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <textarea rows="3" class="form-control" placeholder="Your Query Here"></textarea>
+                  </div>
+                </div>
+                
+                <button class="btn btn-warning btn-lg btn-block mt-3">Send Now</button>
+              </div>
+
+              <div class="row m-0">
+                <div class="col-md-12 p-0 pt-4 pb-4">
+                  <form action="#" class="bg-light p-4 m-auto"></form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="bg-dark p-2 text-center">
+        <div class="container">
+          <p class="text-white">All Right's Reserved @Website Home</p>
+        </div>
+      </footer>
+
+    <!--Bootstrap - Javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
